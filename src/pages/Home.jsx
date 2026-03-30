@@ -7,6 +7,8 @@ import SectionTitle from "../components/SectionTitle";
 import { useThemeContext } from "../context/ThemeContext";
 import { FaqSection } from "../sections/FaqSection";
 import Pricing from "../sections/Pricing";
+import Team from "../sections/Team";
+import Contact from  "../sections/Contact";
 
 export default function Page() {
     const { theme } = useThemeContext();
@@ -72,7 +74,11 @@ export default function Page() {
 
             <Pricing />
 
+            <br/><br/>
+            <Team/>
+
             <FaqSection />
+            <Contact/>
 
             <div className="flex flex-col items-center text-center justify-center mt-20">
                 <h3 className="text-3xl font-semibold mt-16 mb-4">Ready to Get Started?</h3>
