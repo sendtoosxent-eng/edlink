@@ -78,10 +78,10 @@ export default function Contact() {
 
                         <div className="relative z-10 mt-auto">
                             <p className="text-sm/6 text-white mb-5 max-w-[400px]">
-                                Stop spending hours recreating layouts - with <strong>PrebuiltUI</strong> you can copy, customize and launch stunning UIs in minutes.
+                                Stop spending hours confused on what to do - with <strong>Spotnet</strong> Talk to us lets Start your dream project today.
                             </p>
                             <p className="text-sm text-white mb-4 text-right">
-                                ━ Emily Rodriguez
+                                ━ Emily Nabatanzi
                             </p>
 
                             <div className="flex justify-end gap-2 items-center">
