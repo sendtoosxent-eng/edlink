@@ -25,18 +25,18 @@ export default function Page() {
                             src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?q=80&w=50&h=50&auto=format&fit=crop"
                             alt="userImage3" />
                     </div>
-                    <p className="text-xs">Join community of clients </p>
+                    <p className="text-xs">Unlock your business potential today! </p>
                 </div>
                 <h1 className="mt-2 text-5xl/15 md:text-[64px]/19 font-semibold max-w-2xl">
-                    Every startup begins with{" "}
-                    <span className="bg-gradient-to-r from-[#923FEF] dark:from-[#C99DFF] to-[#C35DE8] dark:to-[#E1C9FF] bg-clip-text text-transparent">spot</span>
+                    We Build innovative{" "}
+                    <span className="bg-gradient-to-r from-[#923FEF] dark:from-[#C99DFF] to-[#C35DE8] dark:to-[#E1C9FF] bg-clip-text text-transparent">Software Solutions</span>
                 </h1>
                 <p className="text-base dark:text-slate-300 max-w-lg mt-2">
-                    Our latest thoughts, trends, and tools, written to help you learn, build, and grow faster.
+                    Discover our wide range of cutting-edge software products and services that drive growth and efficiency for businesses..
                 </p>
                 <div className="flex items-center gap-4 mt-8">
                     <button className="bg-purple-600 hover:bg-purple-700 transition text-white rounded-md px-6 h-11">
-                        Get started
+                        Book Demo Now
                     </button>
                     <button className="flex items-center gap-2 border border-purple-900 transition text-slate-600 dark:text-white rounded-md px-6 h-11">
                         <VideoIcon strokeWidth={1} />
@@ -44,7 +44,7 @@ export default function Page() {
                     </button>
                 </div>
                 <h3 className="text-base text-center text-slate-400 mt-28 pb-14 font-medium">
-                    Trusting by leading brands, including —
+                    Tested Approved and trusted  by leading brands
                 </h3>
                 <Marquee className="max-w-5xl mx-auto" gradient={true} speed={25} gradientColor={theme === "dark" ? "#000" : "#fff"}>
                     <div className="flex items-center justify-center">
@@ -55,7 +55,10 @@ export default function Page() {
                 </Marquee>
             </div>
 
-            <SectionTitle text1="FEATURES" text2="Built for builders" text3="Components, patterns and pages — everything you need to ship." />
+            <SectionTitle text1="ABOUT SPOTNET TECHNOLOGIES" text2="CURIOUS TO KNOW ABOUT US?" text3="We are an innovative team tailored and eager to bring out the best solutions for your business in regards of software.Spotnet Technologies is a forward-thinking technology company focused on building smart, efficient, and user-friendly digital solutions. We specialize in software development, web and mobile applications, and IT services tailored to meet the evolving needs of businesses and individuals."
+             text4="Our Mission" text5="To design and deliver exceptional, user-centered technology solutions by harnessing innovation, creativity, and deep technical expertise, while driving customer satisfaction, digital transformation, and sustainable growth across Africa."
+             text6="Our Vision" text7="To be Africa’s leading provider of technology solutions, delivering innovative, reliable, and accessible digital services that empower businesses and communities to thrive in the digital age "
+             text8="Core Values"/>
 
             <div className="flex flex-wrap items-center justify-center gap-6 md:gap-4 mt-10 px-6 md:px-16 lg:px-24 xl:px-32">
                 {featuresData.map((feature, index) => (
@@ -78,10 +81,10 @@ export default function Page() {
                 </p>
                 <div className="flex items-center gap-4 mt-8">
                     <button className="bg-purple-600 hover:bg-purple-700 transition text-white rounded-md px-6 h-11">
-                        Start free trial
+                        Request Demo
                     </button>
                     <button className="border border-purple-900 transition text-slate-600 dark:text-white rounded-md px-6 h-11">
-                        Contact sales
+                        Contact Support
                     </button>
                 </div>
             </div>

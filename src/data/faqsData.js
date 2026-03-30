@@ -1,15 +1,15 @@
 export const faqsData = [
     {
-        question: "What is this SaaS app used for?",
-        answer: "This app helps businesses manage their workflows more efficiently by automating tasks, tracking performance, and integrating with third-party tools."
+        question: "What is this Edlink app used for?",
+        answer: "This app helps schools manage their workflows more efficiently by automating tasks, tracking performance, and integrating all with Detailed reports such as exam reportand more"
     },
     {
         question: "Is there a free trial available?",
-        answer: "Yes, we offer a 14-day free trial with full access to all features. No credit card is required to start the trial."
+        answer: "Yes, we offer a 14-day free trial with full access to all features. No credit card is required to start the trial.Take it as a demo for all our products"
     },
     {
         question: "Can I change my subscription plan later?",
-        answer: "Absolutely! You can upgrade or downgrade your plan at any time from your account settings."
+        answer: "Absolutely! You can upgrade or downgrade your plan at any time  just reach out to the support team ."
     },
     {
         question: "How is my data secured?",
@@ -18,5 +18,9 @@ export const faqsData = [
     {
         question: "Do you offer customer support?",
         answer: "Yes, our support team is available 24/7 via live chat and email. We also have a help center with detailed documentation and tutorials."
+    },
+    {
+        question:"",
+        answer:""
     }
 ];

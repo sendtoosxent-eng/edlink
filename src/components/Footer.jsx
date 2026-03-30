@@ -33,13 +33,19 @@ export default function Footer() {
                             <a href="tel:0763316839"><p>+256 763316839</p></a>
                             <a href="tel:0743946261"><p>+256 743946261</p></a>
                             <a href="mailto:info@spotnet.com"><p>info@spotnet.com</p></a>
+                            <p>Kitende shopping Centre-Level 3</p>
                             <p>Kitende-Entebbe Road</p>
+                            <h2 className="font-semibold mb-5">Follows us</h2>
+                            <img src="fav.png"width={20}/>
+                        
                         </div>
+                        
                     </div>
+                    
                 </div>
             </div>
             <p className="pt-4 text-center pb-5">
-                Copyright 2026 © <a href="https://prebuiltui.com?utm_source=landing" target="_blank"></a> All Right Reserved-<a href="https://themewagon.com" target="_blank">Spotnet Technologies</a>
+                Copyright 2026 © <a href="https://spotnet.com" target="_blank"></a> All Rights Reserved-<a href="https://spotnet.com" target="_blank">Spotnet Technologies</a>
             </p>
         </footer>
     );

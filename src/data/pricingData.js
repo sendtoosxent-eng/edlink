@@ -2,89 +2,98 @@ import { CheckIcon } from "lucide-react";
 
 export const pricingData = [
     {
-        title: "Basic Plan",
-        price: 29,
+        title: "HR management",
+        price: 5,
+        product:"NEXT EMS",
+        text:"A Premium Employee Managements software to stramline your Business and bost productivity",
         features: [
             {
-                name: "5 Projects",
+                name: "Track employee performance",
                 icon: CheckIcon,
             },
             {
-                name: "10 GB Storage",
+                name: "Dedicated support",
                 icon: CheckIcon,
             },
             {
-                name: "Basic Support",
+                name: "Track On site projects",
                 icon: CheckIcon,
             },
             {
-                name: "Community Access",
+                name: "Manage salaries",
                 icon: CheckIcon,
             },
             {
-                name: "Basic code review",
+                name: "Leave Management",
                 icon: CheckIcon,
             },
         ],
-        buttonText: "Get Started",
+        buttonText: "Get Product ",
     },
     {
-        title: "Pro Plan",
+        title: "Educational Tools",
         price: 79,
+        product:"ELDINK",
+        text:"A one real time software for Primary schools that provides seamless workflow of the School operations",
         mostPopular: true,
         features: [
             {
-                name: "50 Projects",
+                name: "Online Student Management",
                 icon: CheckIcon,
             },
             {
-                name: "100 GB Storage",
+                name: "Online Exam Management",
                 icon: CheckIcon,
             },
             {
-                name: "Priority Support",
+                name: "Online Staff Management",
                 icon: CheckIcon,
             },
             {
-                name: "Team Collaboration",
+                name: "Exam Monitoring",
                 icon: CheckIcon,
             },
             {
-                name: "Advanced Analytics",
+                name: "Advanced Accounting",
                 icon: CheckIcon,
             },
             {
-                name: "Premium Code Review",
+                name: "Efficient Reporting",
+                icon: CheckIcon,
+            },
+            {
+                name: "Cloud Based Data storage",
                 icon: CheckIcon,
             }
         ],
-        buttonText: "Upgrade Now",
+        buttonText: "Explore Product",
     },
     {
-        title: "Enterprise Plan",
-        price: 149,
+        title: "Business Tools",
+        text:"Experience the best POS Services with our software that streamlines your Day - to - day Businesses activities.",
+        product:"XPOS",
         features: [
             {
-                name: "Unlimited Projects",
+                name: "Automated Accounting",
                 icon: CheckIcon,
             },
             {
-                name: "1 TB Storage",
+                name: "Inventory Management",
                 icon: CheckIcon,
             },
             {
-                name: "24/7 Dedicated Support",
+                name: "Stock Management",
                 icon: CheckIcon,
             },
             {
-                name: "Custom Integrations",
+                name:"Efficient Reporting ",
                 icon: CheckIcon,
             },
             {
-                name: "SLA Guarantee",
+                name: "Prior Support",
                 icon: CheckIcon,
             }
         ],
-        buttonText: "Contact Sales",
+        buttonText: "Explore Product",
     }
 ];

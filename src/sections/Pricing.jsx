@@ -8,7 +8,7 @@ export default function Pricing() {
     return (
         <div className="relative">
             <img className="absolute -mt-20 md:-mt-100 md:left-20 pointer-events-none" src={theme === "dark" ? "./assets/color-splash.svg" : "./assets/color-splash-light.svg"} alt="color-splash" width={1000} height={1000} priority fetchPriority="high" />
-            <SectionTitle text1="PRICING" text2="Our Pricing Plans" text3="Flexible pricing options designed to meet your needs — whether you're just getting started or scaling up." />
+            <SectionTitle text1="OUR PRODUCTS" text2="Here are our software products" text3="Flexible software products options designed to meet your needs — whether you're just getting started or scaling up your business." />
 
             <div className="flex flex-wrap items-center justify-center gap-6 mt-16">
                 {pricingData.map((plan, index) => (
@@ -20,7 +20,8 @@ export default function Pricing() {
                             </div>
                         )}
                         <p className={plan.mostPopular && "text-white"}>{plan.title}</p>
-                        <h4 className={`text-3xl font-semibold mt-1 ${plan.mostPopular && "text-white"}`}>${plan.price}<span className={`font-normal text-sm ${plan.mostPopular ? "text-white" : "text-slate-300"}`}>/mo</span></h4>
+                        <h4 className={`text-3xl font-semibold mt-1 ${plan.mostPopular && "text-white"}`}>{plan.product}<span className={`font-normal text-sm ${plan.mostPopular ? "text-white" : "text-slate-300"}`}></span></h4>
+                       <p className={plan.mostPopular && "text-white"}>{plan.text}</p>
                         <hr className={`my-8 ${plan.mostPopular ? "border-gray-300" : "border-slate-300 dark:border-slate-700"}`} />
                         <div className={`space-y-2 ${plan.mostPopular ? "text-white" : "text-slate-600 dark:text-slate-300"}`}>
                             {plan.features.map((feature, index) => (
