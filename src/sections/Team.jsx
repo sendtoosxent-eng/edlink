@@ -132,7 +132,7 @@ export default function Team() {
                         </div>
                     </div>
                     <div className="flex flex-col items-center">
-                        <img src="https://images.unspsh.com/photo-15d3b412?w=200&auto=format&fit=crop&q=60" alt="User Image" className="size-20 aspect-square rounded-full" />
+                        <img src="./assets/images.png" alt="User Image" className="size-20 aspect-square rounded-full" />
                         <h3 className="text-lg font-medium text-slate-700 text-center mt-2">Jajja Musisi</h3>
                         <p className="text-sm text-indigo-600 text-center">Marketing Lead</p>
                         <div className="flex items-center gap-2 text-slate-400 mt-2">
