@@ -9,7 +9,7 @@ import { FaqSection } from "../sections/FaqSection";
 import Pricing from "../sections/Pricing";
 import Team from "../sections/Team";
 import Contact from  "../sections/Contact";
-import Cookies from "../components/Cookies";
+
 
 export default function Page() {
     const { theme } = useThemeContext();
