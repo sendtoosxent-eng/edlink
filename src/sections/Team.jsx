@@ -17,7 +17,7 @@ export default function Team() {
                 <p className="text-sm text-slate-500 text-center mt-2 max-w-xl mx-auto">Our diverse team of engineers, designers and innovators is dedicated to building tools that simplify work, accelerate growth and empower businesses worldwide. </p>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-24 mt-12">
                     <div className="flex flex-col items-center">
-                        <img src="https://images.unsplash.com/photo-1513875002-d1d0cf377fde?q=80&w=200" alt="User Image" className="size-20 aspect-square rounded-full" />
+                        <img src="./assets/images.png" alt="User Image" className="size-20 aspect-square rounded-full" />
                         <h3 className="text-lg font-medium text-slate-700 text-center mt-2">Mularia Achileo</h3>
                         <p className="text-sm text-indigo-600 text-center">Founder & CEO</p>
                         <div className="flex items-center gap-2 text-slate-400 mt-2">
@@ -40,7 +40,7 @@ export default function Team() {
                         </div>
                     </div>
                     <div className="flex flex-col items-center">
-                        <img src="https://images.unsplash.com/photo-32755192-727a05c4013d?q=80&w=200" alt="User Image" className="size-20 aspect-square rounded-full" />
+                        <img src="./assets/images.png" alt="User Image" className="size-20 aspect-square rounded-full" />
                         <h3 className="text-lg font-medium text-slate-700 text-center mt-2">Oscar M Nsamba</h3>
                         <p className="text-sm text-indigo-600 text-center">Head of Development</p>
                         <div className="flex items-center gap-2 text-slate-400 mt-2">
@@ -63,7 +63,7 @@ export default function Team() {
                         </div>
                     </div>
                     <div className="flex flex-col items-center">
-                        <img src="https://randomuser.me/api/portits/men/75.jpg" alt="User Image" className="size-20 aspect-square rounded-full" />
+                        <img src="./assets/images.png" alt="User Image" className="size-20 aspect-square rounded-full" />
                         <h3 className="text-lg font-medium text-slate-700 text-center mt-2">Mubiru Gilbert</h3>
                         <p className="text-sm text-indigo-600 text-center">Full-Stack Developer</p>
                         <div className="flex items-center gap-2 text-slate-400 mt-2">
@@ -86,7 +86,7 @@ export default function Team() {
                         </div>
                     </div>
                     <div className="flex flex-col items-center">
-                        <img src="https://images.unsplash.com/photo-14387613-6461ffad8d80?q=80&w=200&h=200&auto=format&fit=crop" alt="User Image" className="size-20 aspect-square rounded-full" />
+                        <img src=".assets/images.png" alt="User Image" className="size-20 aspect-square rounded-full" />
                         <h3 className="text-lg font-medium text-slate-700 text-center mt-2">Adellah N Gloria</h3>
                         <p className="text-sm text-indigo-600 text-center">PR & Graphics Designer</p>
                         <div className="flex items-center gap-2 text-slate-400 mt-2">
@@ -109,7 +109,7 @@ export default function Team() {
                         </div>
                     </div>
                     <div className="flex flex-col items-center">
-                        <img src="https://images.unsplsh.co/pho22079751-3a6694fb2f61?w=200&auto=format&fit=crop&q=60" alt="User Image" className="size-20 aspect-square rounded-full" />
+                        <img src="./assets/images.png" alt="User Image" className="size-20 aspect-square rounded-full" />
                         <h3 className="text-lg font-medium text-slate-700 text-center mt-2">Cyrus Balikuddembe</h3>
                         <p className="text-sm text-indigo-600 text-center">Accountant</p>
                         <div className="flex items-center gap-2 text-slate-400 mt-2">
